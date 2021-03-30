@@ -1,6 +1,7 @@
 package com.example.demosecurity.model;
 
 public class Student {
+    private Long id;
     private String firstName;
     private String lastName;
 
@@ -8,4 +9,6 @@ public class Student {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+
 }
